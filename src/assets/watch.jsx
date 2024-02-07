@@ -6,6 +6,7 @@ const SvgComponent = (props) => (
     width={300}
     height={322}
     fill="none"
+    className="watch-con"
     {...props}
   >
     <path fill="url(#watcha)" d="M0 0h322v322H0z" />

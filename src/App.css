@@ -16,6 +16,10 @@ body {
   line-height: 1;
 }
 
+.statistics-container {
+  padding: 1rem 1.5rem;
+}
+
 .action-buttons {
   margin: 0 20px;
 }
@@ -151,11 +155,25 @@ form button:focus-visible {
   font-weight: 400;
 }
 
+.nav-container {
+  position: relative;
+}
+
+.nav-back-arrow-outline {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+}
+
+
+
 @media only screen and (max-width: 480px) {
   body {
     margin: 0;
   }
-  .statistics {}
+  .statistics-container {
+    padding: 1rem 1.5rem;
+  }
 
   .addForm {}
 
@@ -303,5 +321,66 @@ form button:focus-visible {
     padding: 0.75rem 1.5rem;
     font-size: 0.75rem;
     font-weight: 400;
+  }
+
+  .nav-container {
+    position: relative;
+  }
+
+  
+  .nav-back-arrow-outline {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+  }
+}
+
+@media only screen and (max-width : 390px) {
+  .layer3 {
+    height: 266px;
+  }
+  .img-watch {
+    top: 4px;
+    position: absolute;
+    right: 0;
+  }
+  #watchb {
+    width: 764px!important;
+    height: 700px!important;
+  }
+  .watch-con {
+    width: 264px!important;
+    height: 272px!important;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  body {
+    font-size: 24px;
+  }
+  button {
+    font-size: 16px;
+  }
+  .img-watch {
+    top: 4px;
+    position: absolute;
+    right: 0;
+  }
+  .statistics-container {
+    padding: 1rem 0.4rem;
+  }
+  .nav-back-arrow-outline {
+    top: 8px;
+  }
+  .layer3 {
+    height: 266px;
+  }
+  #watchb {
+    width: 670px!important;
+    height: 670px!important;
+  }
+  .watch-con {
+    width: 240px!important;
+    height: 260px!important;
   }
 }

@@ -5,10 +5,10 @@ import ActivityRing from '../activityRing'
 
 function Statistics() {
   return (
-    <div className='d-flex flex-row my-4 mx-3 justify-content-between'>
+    <div className='d-flex flex-row justify-content-between statistics-container'>
       <div>
         <div className='steps-container d-flex justify-content-center align-items-center'>
-          <ActivityRing steps={5000} goal={10000}/>
+          <ActivityRing />
         </div>
       </div>
       <div>

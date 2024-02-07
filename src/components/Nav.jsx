@@ -6,12 +6,12 @@ import BackArrowOutline from '../assets/back-arrow-outline'
 function Nav() {
   return (
     <div className='nav d-flex justify-content-between'>
-      <div style={{ position: 'relative' }}>
+      <div className='nav-container'>
         <div>
 
           <BackArrow />
         </div>
-        <div style={{position: 'absolute', top: '16px', left: '24px'}}>
+        <div className='nav-back-arrow-outline'>
 
           <BackArrowOutline />
         </div>
