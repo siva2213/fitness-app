@@ -1,0 +1,69 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .activityRing {
+    position: relative;
+    width: 3cm;
+    height: 3cm;
+  }
+
+  .ringBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 100001;
+    background-color: #ffffff17; /* initial ring color */
+  }
+  
+  .ringBackground1 {
+    top: 9px;
+    bottom: 0;
+    left: 9px;
+    right: 0;
+    position: absolute;
+    width: 84%;
+    height: 84%;
+    border-radius: 50%;
+    z-index: 100003;
+    background-color: #2F2F2F;
+  }
+  
+  .ringOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip: rect(0, 275px, 95px, 60px);
+    z-index: 100002;
+    background-color: #FF6020;
+  }
+  
+  .stepCount {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    z-index: 100004;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  
+  .stepText {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-size: 10px;
+    font-weight: 600;
+    color: #FF8250;
+    transform: translateX(-50%);
+    z-index: 100004;
+  }
+  

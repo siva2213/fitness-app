@@ -1,0 +1,98 @@
+.steps-container {
+    width: 10rem;
+    height: 10rem;
+    background-color: #2F2F2F;
+    border-radius: 45px;
+}
+
+.tracking-summary {
+    width: 12rem;
+    height: 4.5rem;
+    background-color: #FFF4EF;
+    border-radius: 41px;
+}
+
+.content-name {
+    font-weight: 600;
+    font-size: 12px;
+    color: #FF8250;
+}
+
+.content-value {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.circle {
+    position: relative;
+    width: 3cm;
+    height: 3cm;
+    border: 8px solid #ffffff17;;
+    border-radius: 50%;
+}
+.circle-copy {
+    position: absolute;
+    width: 3cm;
+    height: 3cm;
+    border: 8px solid #ffffff17;;
+    border-radius: 50%;
+}
+
+/* 
+ */
+
+/* .semi-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.semi-circle::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+} */
+
+
+.activity-ring {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #eee; /* initial grey color */
+}
+.progress {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    clip: rect(0, 100px, 200px, 0);
+    border-radius: 50%;
+}
+.progress .progress-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 1001;
+    background-color: #f90; /* orange color */
+    clip: rect(0, 200px, 200px, 100px);
+}
+.progress .progress-fill {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 1000;
+    clip: rect(0, 100px, 200px, 0);
+}
+  
